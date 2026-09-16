@@ -1,0 +1,21 @@
+# Environment variables — NEVER commit secrets (.env holds local config only)
+.env
+.env.local
+.env.*.local
+# .env.example is committed intentionally (contains no real values)
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
